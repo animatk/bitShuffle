@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>UInt8 shuffle</title>
+    <style>
+    html, body{
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      font-family: 'Helvetica', sans-serif;
+    }
+    .container{
+      width: 90%;
+      margin: 8% auto 0;
+    }
+    #shuffle{
+      width: 100%;
+      min-height: 70px;
+      padding: 5px 15px;
+      border: 1px solid #ccc;
+      background: #f1f1f1;
+      margin-bottom: 10px;
+      display: block;
+      word-wrap: break-word;
+      box-sizing: border-box;
+    }
+    a, a:active, a:focus{
+      display: inline-block;
+      background: #9C27B0;
+      color: #fff;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+    a:hover{
+      background: #E91E63;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1> UTF8 shuffle </h1>
+      <div id="shuffle"></div>
+      <a href="#" onclick="mix('shuffle');"> Mixin </a>
+    </div>
+    <script src="bitShuffle.js"></script>
+  </body>
+</html>
